@@ -1,4 +1,6 @@
 <?php
+namespace App;
+require "./vendor/autoload.php";
 
 abstract class User{
     protected $id;
@@ -6,16 +8,19 @@ abstract class User{
     protected $email;
     protected $password;
     
-    abstract public function afficherHistorique();
-    abstract public function emprunterLivre();
-    abstract public function ajouterLivre();
-    abstract public function supprimerLivre();
-    abstract public function modifierLivre();
-    abstract public function rechercherLivre();
-    abstract public function addMember();
-    abstract public function updateMember();
-    abstract public function deleteMember();
-    
+    //login method
+    public function login(){
+
+    }
+    //logout method
+    public function logout(){
+
+    }
+    //signin method
+    public function signin(){
+
+    }
+
 }
 
 ?>
